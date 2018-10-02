@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    overflow:hidden;
+}
+.rotate{
+    transform: rotate(90deg);
+    transform-origin:bottom left;
+    position:absolute;
+    top: -100vw;
+    left: 0;
+    height:100vw;
+    width:100vh;
+    background-color:#000;
+    color:#fff;
+    overflow:auto;
+}
+		</style>
+	</head>
+	<body>
+<div class="rotate">Hello World! </div>
+</body>
